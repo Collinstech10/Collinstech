@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CollinsTech — Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="scripts.js"></script>
+</head>
+<body class="page page-home">
+  <header class="site-nav glass">
+    <div class="nav-inner">
+      <a class="logo" href="index.html"><span>Collins</span>Tech</a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-socials">
+        <a href="https://www.instagram.com/collinstech012" target="_blank">IG</a>
+        <a href="https://www.tiktok.com/@collinstech012" target="_blank">TT</a>
+        <a href="https://www.linkedin.com/in/eniola-ayobamidele-217119327" target="_blank">IN</a>
+        <a href="https://wa.me/2348134747670" target="_blank">WA</a>
+      </div>
+    </div>
+  </header>
+
+  <canvas id="scene-home" class="bg-canvas"></canvas>
+
+  <main class="hero">
+    <div class="hero-inner">
+      <h1 class="hero-title"><span class="brand">CollinsTech</span></h1>
+      <p class="hero-sub">Building the Future with Code</p>
+      <div class="hero-cta">
+        <a class="btn" href="projects.html">See Projects</a>
+        <a class="btn hollow" href="contact.html">Contact</a>
+        <a class="btn hire" href="https://wa.me/2348134747670" target="_blank">💼 Hire Me</a>
+      </div>
+      <div class="contact-short">
+        <a href="mailto:eniolaayobamidele0@gmail.com">eniolaayobamidele0@gmail.com</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- CT Assist hologram (voice-like) -->
+  <div id="ct-assist" class="ct-assist">
+    <div id="ct-orb" class="ct-orb" title="CT Assist — click to open"></div>
+    <div id="ct-panel" class="ct-panel hidden" aria-hidden="true">
+      <div class="ct-header">CT Assist <span class="ct-status">— Online</span></div>
+      <div id="ct-messages" class="ct-messages"></div>
+      <form id="ct-form" class="ct-form">
+        <input id="ct-input" placeholder="Ask CT Assist (e.g. pricing, availability)..." autocomplete="off" />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="site-footer">© 2025 CollinsTech</footer>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CollinsTech — Contact</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="scripts.js"></script>
+</head>
+<meta name="viewport" content="width=device, initial-scale=1.0">
+<body class="page page-contact">
+  <header class="site-nav glass">
+    <div class="nav-inner">
+      <a class="logo" href="index.html"><span>Collins</span>Tech</a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="services.html">Services</a>
+      </nav>
+      <div class="nav-socials">
+        <a href="https://www.instagram.com/collinstech012" target="_blank">IG</a>
+        <a href="https://www.tiktok.com/@collinstech012" target="_blank">TT</a>
+        <a href="https://www.linkedin.com/in/eniola-ayobamidele-217119327" target="_blank">IN</a>
+        <a href="https://wa.me/2348134747670" target="_blank">WA</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="contact-bg"></div>
+
+  <main class="contact-main">
+    <div class="contact-panel">
+      <h2>Contact CollinsTech</h2>
+      <form id="contact-form" action="mailto:eniolaayobamidele0@gmail.com" method="post" enctype="text/plain">
+        <label>Name <input type="text" name="name" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <label>Message <textarea name="message" rows="5" required></textarea></label>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div class="contact-links">
+        <p>Email: <a href="mailto:eniolaayobamidele0@gmail.com">eniolaayobamidele0@gmail.com</a></p>
+        <p>WhatsApp: <a href="https://wa.me/2348134747670">+2348134747670</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/eniola-ayobamidele-217119327">Profile</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/collinstech012">collinstech012</a></p>
+        <p>TikTok: <a href="https://www.tiktok.com/@collinstech012">@collinstech012</a></p>
+      </div>
+    </div>
+  </main>
+
+  <!-- CT Assist -->
+  <div id="ct-assist" class="ct-assist">
+    <div id="ct-orb" class="ct-orb" title="CT Assist — click to open"></div>
+    <div id="ct-panel" class="ct-panel hidden" aria-hidden="true">
+      <div class="ct-header">CT Assist <span class="ct-status">— Online</span></div>
+      <div id="ct-messages" class="ct-messages"></div>
+      <form id="ct-form" class="ct-form">
+        <input id="ct-input" placeholder="Ask CT Assist..." autocomplete="off" />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="site-footer">© 2025 CollinsTech</footer>
+</body>
+</html>
